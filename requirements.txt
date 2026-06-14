@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy
+pyarrow>=14.0
+requests>=2.31
+cryptography>=42.0
+python-dotenv>=1.0
+matplotlib>=3.5
+streamlit>=1.35
+plotly>=5.20
+pytest>=8.0

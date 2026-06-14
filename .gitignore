@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+kalshi_private_key
+*.pem
+
+# data (ledger + research DBs are local only)
+data/
+*.db
+*.log
+
+# python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
