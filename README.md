@@ -106,3 +106,19 @@ and meant to run periodically to accumulate history locally.
 ## Stack
 
 Python · SQLite · Streamlit · Plotly · pandas · RSA-PSS-signed REST · systemd
+
+## Disclaimer
+
+This project is shared for **educational and research purposes only**. It is not
+financial, investment, or trading advice, and nothing here is a recommendation to
+trade any market or instrument. Trading prediction markets and crypto involves
+substantial risk of loss.
+
+The code is provided "as is", without warranty of any kind. I take no
+responsibility for any losses, damages, or other consequences arising from its
+use. If you choose to run it, you do so entirely at your own risk and are
+responsible for complying with the terms of service of any exchange or data
+provider and with the laws and regulations of your jurisdiction.
+
+This project is independent and is not affiliated with, endorsed by, or sponsored
+by Kalshi, Coinbase, or any other company mentioned.
