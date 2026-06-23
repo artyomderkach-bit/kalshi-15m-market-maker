@@ -4,6 +4,12 @@ A trading bot for Kalshi's 15-minute crypto up/down markets (BTC, ETH, SOL, XRP,
 DOGE). It runs a single market-making strategy against a fair-value model, with a
 full offline backtest pipeline behind it and a live dashboard in front.
 
+> **This is the public version of the project, with the proprietary parts
+> removed.** The fair-value model here uses a simplified variance term, the
+> strategy parameters are illustrative defaults, and the specific live trading
+> results are not included. The architecture, engine, backtest harness, and
+> tooling are the real thing; the edge itself is not in this repo.
+
 The project started as a research question — *is there a durable edge in these
 markets?* — and the honest answer shaped everything else. I tested a fair number
 of strategies on real bid/ask candle data across tens of thousands of windows.
