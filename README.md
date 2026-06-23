@@ -10,8 +10,8 @@ full offline backtest pipeline behind it and a live dashboard in front.
 > results are not included. The architecture, engine, backtest harness, and
 > tooling are the real thing; the edge itself is not in this repo.
 
-The project started as a research question — *is there a durable edge in these
-markets?* — and the honest answer shaped everything else. I tested a fair number
+The project started as a research question — is there a durable edge in these
+markets? I tested a fair number
 of strategies on real bid/ask candle data across tens of thousands of windows.
 Almost every edge that looked real in-sample decayed out-of-sample within a few
 weeks as the market makers on the other side sharpened up. So rather than chase a
