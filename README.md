@@ -20,15 +20,14 @@ roughly break-even under pessimistic fill assumptions, and measures its true
 economics live — where requote latency (a couple of seconds in production vs a
 full minute in the candle backtest) is the variable the backtest can't resolve.
 
-That restraint is the point. The interesting engineering is the measurement
-harness, not a promise of alpha.
+This is not a promise of alpha.
 
 ## The strategy
 
 Per asset and per 15-minute window, the engine looks at the **longshot** side of
 the book (the cheap, unlikely outcome). When its ask sits above the model's fair
 value by a margin, the engine rests a post-only offer at that ask — which is
-equivalently a maker *buy of the favorite* at `1 − longshot_price` (~$0.80–0.99
+equivalently a maker *buy of the favorite* at `1 − longshot_price` ($0.80–0.99
 per contract). At most one fill per asset per window.
 
 The fair-value model (`bot/model.py`) prices `P(up)` for a settlement defined by
